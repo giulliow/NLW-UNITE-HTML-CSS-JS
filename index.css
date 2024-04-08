@@ -141,4 +141,5 @@ tbody td button{
 
 tbody td button:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
