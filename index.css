@@ -52,7 +52,7 @@ fieldset > div{
   border: var(--border);
   border-radius: 10px;
 
-  padding: 8px 12px;
+  padding: 8px 8px;
 
   font: 400 14px/150% 'Poppins', sans-serif;
   color: #ceced3;
@@ -80,8 +80,16 @@ fieldset button {
   color: #f4feff;
 }
 
+.botao{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
 fieldset button:hover {
   background: #022431;
+  cursor: pointer;
 }
 
 .lista-participantes {
